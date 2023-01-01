@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Temperature converter</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+        <div class="container">
+            <div class="hed">Temperature converter</div>
+            
+            <div class="boxcontainer">
+                <div class="box1">
+                    <p>Degree</p>
+                    <input type="number" class="takval" />
+                </div>
+                <div class="box1">
+                    <p>Type</p>
+                    <select name="" id="unit">   
+                         <option value="Fahrenheit">Fahrenheit</option>
+                         <option value="Celsius">Celsious</option>  
+                    </select>
+                </div>
+            </div>
+            <div class="valuecontainer">
+                <p>Result</p>
+                <div class="value"></div>
+            </div>
+            <button onclick="temprature()" class="button">Convert</button>
+        </div>
+    </body>
+
+    <script src="script.js"></script>
